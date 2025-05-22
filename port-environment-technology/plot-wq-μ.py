@@ -15,8 +15,8 @@ def wq_formula(l,m,times):
     return l/(m * times * (m*times -l)) 
 
 def main():
-    l = 50   # ゲート到着台数
-    m = 50.5 # ゲート処理台数　
+    l = 70   # ゲート到着台数
+    m = 70.5 # ゲート処理台数　
     
     m_times = [1 + c/10 for c in range(1,6)]
     Wq = [wq_formula(l,m,m_times[i]) * 60 for i in range(0,len(m_times))]
