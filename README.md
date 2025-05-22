@@ -1,1 +1,1 @@
-# data-science-class
+# university-class-report
